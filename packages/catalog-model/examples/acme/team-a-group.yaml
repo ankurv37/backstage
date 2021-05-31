@@ -2,12 +2,12 @@ apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
   name: team-a
-  description: Team Ten-X
+  description: 10XE
 spec:
   type: team
   profile:
     # Intentional no displayName for testing
-    email: team-a@example.com
+    email: 10XE@anthem.com
     picture: https://avatars.dicebear.com/api/identicon/team-a@example.com.svg?background=%23fff&margin=25
   parent: backstage
   children: []
@@ -15,18 +15,18 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-  name: breanna.davison
+  name: Jyothi
 spec:
   profile:
     # Intentional no displayName for testing
-    email: breanna-davison@example.com
+    email: Jyothi@anthem.com
     picture: https://avatars.dicebear.com/api/avataaars/breanna-davison@example.com.svg?background=%23fff
   memberOf: [team-a]
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-  name: 10XE-dev1
+  name: Thomas
 spec:
   profile:
     displayName: Thomas
@@ -40,7 +40,7 @@ metadata:
   name: Kirti
 spec:
   profile:
-    displayName: Nigel Manning
+    displayName: Kirti
     email: Kirti@anthem.com
     picture: https://avatars.dicebear.com/api/avataaars/nigel-manning@example.com.svg?background=%23fff
   memberOf: [team-a]

@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  name: 10XE
+  name: team-a
   description: Team Ten-X
 spec:
   type: team

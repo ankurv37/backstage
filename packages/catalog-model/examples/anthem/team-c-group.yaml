@@ -1,15 +1,15 @@
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  name: team-c
-  description: Team C
+  name: PSEHUB
+  description: PSEHUB
 spec:
   type: team
   profile:
-    displayName: Team C
-    email: team-c@example.com
+    displayName: PSEHUB
+    email: PSEHUB@anthem.com
     picture: https://avatars.dicebear.com/api/identicon/team-c@example.com.svg?background=%23fff&margin=25
-  parent: boxoffice
+  parent: PlatformServices
   children: []
 ---
 apiVersion: backstage.io/v1alpha1
@@ -19,9 +19,9 @@ metadata:
 spec:
   profile:
     displayName: Calum Leavy
-    email: calum-leavy@example.com
+    email: calum-leavy@anthem.com
     picture: https://avatars.dicebear.com/api/avataaars/calum-leavy@example.com.svg?background=%23fff
-  memberOf: [team-c]
+  memberOf: [PSEHUB]
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
@@ -30,9 +30,9 @@ metadata:
 spec:
   profile:
     displayName: Frank Tiernan
-    email: frank-tiernan@example.com
+    email: frank-tiernan@anthem.com
     picture: https://avatars.dicebear.com/api/avataaars/frank-tiernan@example.com.svg?background=%23fff
-  memberOf: [team-c]
+  memberOf: [PSEHUB]
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
@@ -41,9 +41,9 @@ metadata:
 spec:
   profile:
     displayName: Peadar MacMahon
-    email: peadar-macmahon@example.com
+    email: peadar-macmahon@anthem.com
     picture: https://avatars.dicebear.com/api/avataaars/peadar-macmahon@example.com.svg?background=%23fff
-  memberOf: [team-c]
+  memberOf: [PSEHUB]
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
@@ -52,9 +52,9 @@ metadata:
 spec:
   profile:
     displayName: Sarah Gilroy
-    email: sarah-gilroy@example.com
+    email: sarah-gilroy@anthem.com
     picture: https://avatars.dicebear.com/api/avataaars/sarah-gilroy@example.com.svg?background=%23fff
-  memberOf: [team-c]
+  memberOf: [PSEHUB]
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
@@ -63,6 +63,6 @@ metadata:
 spec:
   profile:
     displayName: Tara MacGovern
-    email: tara-macgovern@example.com
+    email: tara-macgovern@anthem.com
     picture: https://avatars.dicebear.com/api/avataaars/tara-macgovern@example.com.svg?background=%23fff
-  memberOf: [team-c]
+  memberOf: [PSEHUB]

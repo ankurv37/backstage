@@ -1,15 +1,15 @@
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  name: team-a
+  name: 10XE
   description: 10XE
 spec:
   type: team
   profile:
     # Intentional no displayName for testing
     email: 10XE@anthem.com
-    picture: https://avatars.dicebear.com/api/identicon/team-a@example.com.svg?background=%23fff&margin=25
-  parent: backstage
+    picture: https://avatars.dicebear.com/api/identicon/10XE@example.com.svg?background=%23fff&margin=25
+  parent: Sydney
   children: []
 ---
 apiVersion: backstage.io/v1alpha1
@@ -21,7 +21,7 @@ spec:
     # Intentional no displayName for testing
     email: Jyothi@anthem.com
     picture: https://avatars.dicebear.com/api/avataaars/breanna-davison@example.com.svg?background=%23fff
-  memberOf: [team-a]
+  memberOf: [10XE]
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
@@ -32,7 +32,7 @@ spec:
     displayName: Thomas
     email: Thomas@anthem.com
     picture: https://avatars.dicebear.com/api/avataaars/janelle-dawe@example.com.svg?background=%23fff
-  memberOf: [team-a]
+  memberOf: [10XE]
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
@@ -43,7 +43,7 @@ spec:
     displayName: Kirti
     email: Kirti@anthem.com
     picture: https://avatars.dicebear.com/api/avataaars/nigel-manning@example.com.svg?background=%23fff
-  memberOf: [team-a]
+  memberOf: [10XE]
 ---
 # This user is added as an example, to make it more easy for the "Guest"
 # sign-in option to demonstrate some entities being owned. In a regular org,
@@ -57,4 +57,4 @@ spec:
     displayName: Guest User
     email: guest@example.com
     picture: https://avatars.dicebear.com/api/avataaars/guest@example.com.svg?background=%23fff
-  memberOf: [team-a]
+  memberOf: [10XE]

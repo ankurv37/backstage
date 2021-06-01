@@ -6,6 +6,6 @@ metadata:
 spec:
   type: service
   lifecycle: production
-  owner: team-a
+  owner: 10XE
   providesApis:
     - wayback-archive

@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: streetlights
-  description: The Smartylighting Streetlights API allows you to remotely manage the city lights.
+  name: IdCard
+  description: The IdCard  API allows you to remotely access the IdCard.
   tags:
     - mqtt
   links:
@@ -12,7 +12,7 @@ metadata:
 spec:
   type: asyncapi
   lifecycle: production
-  owner: team-c
+  owner: 10XE
   definition: |
     asyncapi: 2.0.0
     info:

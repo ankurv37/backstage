@@ -5,5 +5,5 @@ metadata:
   description: Stores artist details
 spec:
   type: database
-  owner: team-a
+  owner: PSAPI
   system: artist-engagement-portal

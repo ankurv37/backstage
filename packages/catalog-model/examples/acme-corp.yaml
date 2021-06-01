@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
-  name: acme-corp
+  name: Anthem
   description: A collection of all Backstage example Groups
 spec:
   targets:
-    - ./acme/org.yaml
+    - ./anthem/org.yaml
